@@ -6,7 +6,7 @@
     "builds": [
         {
             "src": "/api/index.php",
-            "use": "vercel-php@0.9.0"
+            "use": "vercel-php@0.6.2"
         },
         {
             "src": "/public/**",
@@ -29,6 +29,10 @@
         {
             "src": "/robots.txt",
             "dest": "/public/robots.txt"
+        },
+        {
+            "src": "/(.+[.](?:png|jpg|jpeg|gif|svg|webp|ico|css|js|mp4|woff|woff2|ttf))",
+            "dest": "/public/$1"
         },
         {
             "src": "/(.*)",

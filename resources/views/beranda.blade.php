@@ -10,7 +10,6 @@
 </head>
 
 <body>
-    {{-- Navbar --}}
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <div class="row">
@@ -96,7 +95,7 @@
         </svg>
         </div>
     </nav>
-    {{-- Slide --}}
+
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -143,7 +142,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    {{-- Sambutan --}}
+    
     <div class="container">
         <di class="row">
             <div class="col-md-8">
